@@ -1,6 +1,4 @@
-# Duck
-
-## Duck Bot
+# Duck Bot
 
 Duck Bot is a simple Telegram bot written in Python that responds to the `/duck` command by sending a duck quacking sound to the user. This README provides an overview of the code and how to set up and run the bot.
 
