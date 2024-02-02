@@ -2,3 +2,5 @@ __pycache__
 tok.py
 as.py
 .DS_Store
+.vscode
+.venv

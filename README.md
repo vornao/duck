@@ -25,6 +25,30 @@ pip install python-telegram-bot
 
 4. Ensure you have a valid audio file to send as a response. In this code, the audio file is expected to be located at `assets/duck.mp3`. Make sure you have this audio file in the specified path, or modify the code to point to the correct file path.
 
+
+
+### Docker Setup
+
+1. Clone or download this repository to your local machine.
+
+2. Open the code in a text editor or integrated development environment (IDE) of your choice.
+
+3. Replace the placeholder `TOKEN` in the code with your actual Telegram bot token obtained from the BotFather.
+
+4. Ensure you have a valid audio file to send as a response. In this code, the audio file is expected to be located at `assets/duck.mp3`. Make sure you have this audio file in the specified path, or modify the code to point to the correct file path.
+
+5. Build the docker image using the following command:
+
+```bash
+docker build -t duck-bot .
+```
+
+6. Run the docker container using the following command:
+
+```bash
+docker run -d --name duck-bot duck-bot
+```
+
 ### Usage
 
 To run the Duck Sound Bot, execute the Python script by running the following command in your terminal or command prompt:
